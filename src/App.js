@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
 
-      <h1>Form :nous contacter</h1>
+      <h1 className='mb-4'>Form Checkpoints</h1>
 
       <Formall />
 

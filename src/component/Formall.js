@@ -2,6 +2,11 @@ import React from 'react';
 import { Form,Button } from 'react-bootstrap';
 
 const Formall = () => {
+    const handelClick = (e)=>{
+        e.preventDefault();
+        console.log("test1")
+    }
+
     return (
         <div className='form-all-page'>
              <Form>
@@ -20,9 +25,10 @@ const Formall = () => {
                 <Form.Group className="mb-3" controlId="formBasicCheckbox">
                     <Form.Check type="checkbox" label="Check me out" />
                 </Form.Group>
-                <Button variant="primary" type="submit">
+                <Button onClick={(e)=>handelClick(e)} variant="primary" type="submit">
                     Submit
                 </Button>
+
                 </Form>
         </div>
     );
