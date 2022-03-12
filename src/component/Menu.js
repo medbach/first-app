@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import { Nav } from 'react-bootstrap';
 
 const Menu = () => {
@@ -11,6 +12,12 @@ const Menu = () => {
                 <Nav.Item>
                     <Nav.Link href="/home">Active</Nav.Link>
                 </Nav.Item>
+                <div className='nav-item'>
+                    <NavLink to ="/" exact className="nav-link">Home</NavLink>
+                </div>
+                <div className='nav-item'>
+                    <NavLink to ="/jsx" exact className="nav-link">JSX</NavLink>
+                </div>
                 <Nav.Item>
                     <Nav.Link eventKey="link-1">Link</Nav.Link>
                 </Nav.Item>

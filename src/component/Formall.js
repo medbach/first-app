@@ -1,4 +1,4 @@
-import { toHaveErrorMessage } from '@testing-library/jest-dom/dist/matchers';
+
 import React from 'react';
 import { Form,Button } from 'react-bootstrap';
 import Formdata  from './Formdata';
@@ -22,12 +22,15 @@ const  {handleChange,handelClick, data,errors } = Formdata(validation);
                     </Form.Text>
                     
                 </Form.Group>
-                {errors.email && <p>{errors.email}</p>}
+               <div className='validation'>{errors.email && <p>{errors.email}</p>}</div> 
 
                 <Form.Group className="mb-3" controlId="formBasicPassword">
                     <Form.Label>Password</Form.Label>
                     <Form.Control onChange={(event) => handleChange(event)} type="password" name="password" placeholder="Password" />
                 </Form.Group>
+                <div className='validation'>{errors.password && <p>{errors.password}</p>}</div> 
+                
+
                 <Form.Group className="mb-3" controlId="formBasicCheckbox">
                     <Form.Check type="checkbox" label="Check me out" />
                 </Form.Group>
