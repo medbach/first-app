@@ -1,0 +1,8 @@
+.title{
+    color:red;
+}
+.images{
+    max-width: 400px;
+    object-fit: contain;
+    margin: 0 auto;
+}

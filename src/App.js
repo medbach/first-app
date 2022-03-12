@@ -1,9 +1,10 @@
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Formall from './component/Formall';
+
 import Menu from './component/Menu';
 import Footerapp from './component/Footerapp';
+import Allroutes from './component/Allroutes';
 
 
 
@@ -17,7 +18,7 @@ function App() {
       <main>
         
 
-        <Formall />
+        <Allroutes />
 
       </main>
 
