@@ -2,18 +2,27 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Formall from './component/Formall';
+import Menu from './component/Menu';
+import Footerapp from './component/Footerapp';
+
 
 
 function App() {
   return (
     <div className="App">
+      <header>
+       <Menu />
+      </header>
 
-      <h1 className='mb-4'>Form Checkpoints</h1>
+      <main>
+        
 
-      <Formall />
+        <Formall />
 
-    
+      </main>
 
+      
+    <Footerapp />
     </div>
   );
 }

@@ -6,6 +6,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.nav-link{
+  color:rgb(255, 255, 255) !important;
+}
+a{
+  color:rgb(255, 255, 255) !important;
+}
+footer p {
+  color: aliceblue;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -15,4 +24,28 @@ code {
   max-width: 600px;
   margin: 0 auto;
   width: 700px;
+}
+.nav {
+
+  background: #323131;
+  margin-bottom: 3em;
+}
+
+footer {
+  padding-top: 2em;
+  background: #323131;
+}
+main {
+
+  background-image: url("/public/images/bg1.png");
+  padding-bottom: 4em;
+  padding-top: 4em;
+}
+.form-all-page{
+  
+  background-color: aliceblue;
+  padding: 1em;
+}
+.form-all-page h1 {
+  color:#000;
 }
