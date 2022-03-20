@@ -62,4 +62,13 @@ body {
   .validation p {
     margin: 0;
   }
-  
+  .profilito {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.bgprofil {
+  background-color: #000;
+  padding: 1em;
+  margin: 1em;
+}
