@@ -22,6 +22,9 @@ const Menu = () => {
                     <NavLink to="/profil" exact className="nav-link">Mon Profil</NavLink>
                 </Nav.Item>
                 <Nav.Item>
+                    <NavLink to="/profil-prop" exact className="nav-link">Mon Profil Props</NavLink>
+                </Nav.Item>
+                <Nav.Item>
                     <Nav.Link eventKey="link-2">Link</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
