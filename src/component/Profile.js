@@ -12,7 +12,6 @@ const Profile = () => {
             <div className='bgprofil'>
             <FullName />
             <Addresse />
-
             </div>
               
 

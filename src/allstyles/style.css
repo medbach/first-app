@@ -72,3 +72,8 @@ body {
   padding: 1em;
   margin: 1em;
 }
+p {
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+}
